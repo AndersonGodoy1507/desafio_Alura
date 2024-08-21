@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripitador</title>
+    <link rel="stylesheet" href="./estilo/style.css">
+</head>
+
+<body>
+    <main class="principal">
+        <header class="cabecalho">
+            <img src="./imagem/Alura logo.jpg" alt="Logo">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+        <div class="campo-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Encripite Aqui"></textarea>
+                <p>Antenção: Somente letras MAIÚSCULAS e sem acento</p>
+            </div>
+            <div id="saida">
+                <img src="./imagem/Alura logo.jpg" alt="">
+                <h2>Seu texto encripitado aparece aqui.</h2>
+                <span>Digite a mensagem a ser encriptada ou desemcriptada.</span>
+
+            </div>
+
+        </div>
+        <div class="button">
+            <div class="botao">
+                <button onclick="criptografar()" class="btn-encri">Encriptador</button>
+                <button onclick="descriptografar()" class="btn-descri">Desencriptador</button>
+
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="icones">
+            <a href="www.linkedin.com/in/abraga1507
+            "><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/AndersonGodoyBraga"><ion-icon name="logo-github"></ion-icon></a>
+            
+        </div>
+        <h3>Produzido por Anderson Godoy</h3>
+    </footer>
+  <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+</body>
+
+</html>
